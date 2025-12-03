@@ -16,13 +16,13 @@ const ContentSections = ({ scrollToSection }: ContentSectionsProps) => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <Badge className="mb-4" variant="secondary">
-                Член Федерации профессиональных коучей и наставников РФ
+                Психолог-коуч • Член Федерации коучей РФ
               </Badge>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-                Путь к внутренней целостности
+                Елена Кукатова
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-                Помогаю справиться с тревогой, выгоранием и найти себя через авторский метод «Код целостности»
+                Практики, тесты, коучинг — мягко, но глубоко. Помогаю справиться с тревогой, выгоранием и найти себя
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" onClick={() => scrollToSection("contact")} className="group">
@@ -49,9 +49,9 @@ const ContentSections = ({ scrollToSection }: ContentSectionsProps) => {
       <section id="about" className="py-20 bg-muted/30">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">О специалисте</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Елена Кукатова</h2>
             <p className="text-lg text-muted-foreground">
-              Дипломированный профессиональный психолог и коуч с многолетним опытом работы
+              Психолог-коуч, член Федерации коучей РФ. Работаю с тревогой, выгоранием и помогаю в поиске себя
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -60,11 +60,11 @@ const ContentSections = ({ scrollToSection }: ContentSectionsProps) => {
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                   <Icon name="Award" className="text-primary" size={24} />
                 </div>
-                <CardTitle>Профессиональное образование</CardTitle>
+                <CardTitle>Психолог-коуч</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Дипломированный специалист в области психологии и коучинга с подтвержденной квалификацией
+                  Профессиональный психолог и коуч с практическим подходом к работе с клиентами
                 </p>
               </CardContent>
             </Card>
@@ -73,11 +73,11 @@ const ContentSections = ({ scrollToSection }: ContentSectionsProps) => {
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                   <Icon name="Users" className="text-primary" size={24} />
                 </div>
-                <CardTitle>Член федерации</CardTitle>
+                <CardTitle>Член Федерации коучей РФ</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Член Федерации профессиональных коучей и наставников РФ
+                  Официальный член Федерации профессиональных коучей России
                 </p>
               </CardContent>
             </Card>
@@ -86,11 +86,11 @@ const ContentSections = ({ scrollToSection }: ContentSectionsProps) => {
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                   <Icon name="Sparkles" className="text-primary" size={24} />
                 </div>
-                <CardTitle>Авторский метод</CardTitle>
+                <CardTitle>Авторский подход</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Автор метода «Код целостности» — уникальной системы работы с личностью
+                  Работа через практики и тесты — мягко, но глубоко погружаясь в суть запроса
                 </p>
               </CardContent>
             </Card>
@@ -101,9 +101,9 @@ const ContentSections = ({ scrollToSection }: ContentSectionsProps) => {
       <section id="method" className="py-20">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">Метод «Код целостности»</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Целостность в деталях</h2>
             <p className="text-lg text-muted-foreground">
-              Авторская методика работы с внутренними конфликтами и поиском себя
+              Авторский подход к работе с внутренними конфликтами и поиском себя
             </p>
           </div>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -123,9 +123,9 @@ const ContentSections = ({ scrollToSection }: ContentSectionsProps) => {
                       <Icon name="Check" className="text-primary" size={16} />
                     </div>
                     <div>
-                      <h4 className="font-medium mb-1">Работа с тревогой</h4>
+                      <h4 className="font-medium mb-1">Тревога</h4>
                       <p className="text-sm text-muted-foreground">
-                        Помогаю выявить источники тревожности и научиться управлять эмоциональным состоянием
+                        Работаю с тревожными состояниями, помогаю обрести внутреннюю устойчивость
                       </p>
                     </div>
                   </div>
@@ -134,9 +134,9 @@ const ContentSections = ({ scrollToSection }: ContentSectionsProps) => {
                       <Icon name="Check" className="text-primary" size={16} />
                     </div>
                     <div>
-                      <h4 className="font-medium mb-1">Преодоление выгорания</h4>
+                      <h4 className="font-medium mb-1">Выгорание</h4>
                       <p className="text-sm text-muted-foreground">
-                        Восстановление ресурсов, баланс между работой и личной жизнью
+                        Помогаю восстановить ресурсы и найти баланс в жизни
                       </p>
                     </div>
                   </div>
@@ -147,7 +147,7 @@ const ContentSections = ({ scrollToSection }: ContentSectionsProps) => {
                     <div>
                       <h4 className="font-medium mb-1">Поиск себя</h4>
                       <p className="text-sm text-muted-foreground">
-                        Обретение внутренней целостности и понимания своих истинных желаний
+                        Через практики и тесты помогаю обрести внутреннюю целостность
                       </p>
                     </div>
                   </div>

@@ -40,20 +40,16 @@ const Footer = ({ scrollToSection }: FooterProps) => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Социальные сети</h3>
             <div className="flex gap-4">
-              <Button variant="outline" size="icon" className="rounded-full">
-                <Icon name="Facebook" size={20} />
-              </Button>
-              <Button variant="outline" size="icon" className="rounded-full">
-                <Icon name="Instagram" size={20} />
-              </Button>
-              <Button variant="outline" size="icon" className="rounded-full">
-                <Icon name="Send" size={20} />
+              <Button variant="outline" size="icon" className="rounded-full" asChild>
+                <a href="https://t.me/elenak_pro" target="_blank" rel="noopener noreferrer">
+                  <Icon name="Send" size={20} />
+                </a>
               </Button>
             </div>
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-border text-center text-muted-foreground">
-          <p>&copy; 2024 Психолог • Коуч. Все права защищены.</p>
+          <p>&copy; 2024 Елена Кукатова. Все права защищены.</p>
         </div>
       </div>
     </footer>

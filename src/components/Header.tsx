@@ -8,7 +8,7 @@ const Header = ({ scrollToSection }: HeaderProps) => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
-        <div className="text-2xl font-semibold tracking-tight">Психолог • Коуч</div>
+        <div className="text-2xl font-semibold tracking-tight">Елена Кукатова</div>
         <nav className="hidden md:flex items-center gap-6">
           <button onClick={() => scrollToSection("hero")} className="text-sm font-medium transition-colors hover:text-primary">
             Главная
